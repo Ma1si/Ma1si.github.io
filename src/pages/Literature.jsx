@@ -4,7 +4,7 @@ function Literature() {
     
       <section id="center">
         <div className="image-ticher">
-          <h1 className='name'>Список литерату на лето</h1>
+          <h1 className='name'>Список литературы на лето</h1>
         </div>
         <div>
             <h2>Рекомендуемый список литературы на лето</h2>
