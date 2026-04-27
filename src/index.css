@@ -1,0 +1,6 @@
+.home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e8f4f8, #f9f1f6);
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
