@@ -37,8 +37,8 @@ p {
 }
 
 .qr {
-  width: 200px;       /* или 180px/220px — подбери под себя */
-  height: 200px;
+  width: 25%;       /* или 180px/220px — подбери под себя */
+  height: auto;
   border-radius: 12px;
   margin: 10px
 }

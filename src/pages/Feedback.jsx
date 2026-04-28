@@ -1,4 +1,7 @@
-import qr_tg from '/home/malsi/my_global/site-lil/site-lila/src/assets/image.png'
+import qr_tg from '/src/assets/image.png'
+import qr_max from '/src/assets/sQREVre-.jpg'
+
+
 
 function Feedback() {
   return (
@@ -16,7 +19,7 @@ function Feedback() {
               </h3>
               <div className="qr-group">
                 <img className="qr" src={qr_tg} alt="QR Code" />
-                <img className="qr" src={qr_tg} alt="QR Code" />
+                <img className="qr" src={qr_max} alt="QR Code" />
               </div>
               <h4>
                 Единый номер экстренных служб в России — 112 <br/>
