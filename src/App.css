@@ -1,10 +1,64 @@
+.home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e8f4f8, #f9f1f6);
+  padding: 40px 20px;
+  box-sizing: border-box;
+  
+}
+
+#center {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  
+  
+}
+
+.image-ticher {
+  display: flex;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.image-ticher .base {
+  width: 85%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+  
+.name_ticher {
+  color: #5a6a7a;
+  margin: 10;
+}
+
+.txt {
+  font-size: 25px;
+  margin: 10;
+  color: #5a6a7a;
+}
+
+@media (max-width: 768px) {
+  #center {
+    padding: 20px 16px;
+    margin: 0 16px;
+    max-width: none;
+  }
+  
+  .home p {
+    font-size: 16px;
+  }
+}
+
+
 h1 {
     color: #5a6a7a;
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 25px;
-
-
 }
 h2 {
     color: #5a6a7a;
@@ -41,4 +95,16 @@ p {
   height: auto;
   border-radius: 12px;
   margin: 10px
+}
+
+.name {
+  color: #5a6a7a;
+  margin: 10;
+}
+
+.H1 {
+    display: flex;
+    color: #5a6a7a;
+    align-items: center;
+    justify-content: center;
 }
