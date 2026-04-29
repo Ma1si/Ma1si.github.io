@@ -61,16 +61,16 @@
   }
   
   .image-ticher .base {
-    width: 60%;
+    width: 50%;
     max-width: 250px;
   }
   
   .name_ticher {
-    font-size: 24px;
+    font-size: 2px;
   }
   
   .txt {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 
