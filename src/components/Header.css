@@ -48,9 +48,7 @@
     display: none;
   }
 
-  .nav-mobile {
-    display: flex;
-  }
+  
 
   .menu-toggle {
     display: flex;
@@ -59,8 +57,10 @@
   gap: 6px;
   }
 
-.nav-link {
-  font-size: 95%;
-  }
+  .nav-link {
+    font-size: 95%;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
 }
 
