@@ -1,8 +1,6 @@
 import qr_tg from '/src/assets/image.png'
 import qr_max from '/src/assets/sQREVre-.jpg'
 
-
-
 function Feedback() {
   return (
     <div className='home'>
@@ -31,7 +29,6 @@ function Feedback() {
                 103 – Скорая медицинская помощь <br/>
                 104 – Аварийная служба газа <br/>
               </h4>
-–
           </div>
       </section>
     </div>
