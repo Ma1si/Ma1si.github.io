@@ -1,12 +1,12 @@
 import React from 'react';
-import ticher from '../assets/ticher.jpg'
+import ticher from '../assets/ticher.jpg';
+
 function Home() {
   return (
     <div className="home">
       <section id="center">
         <div className="image-ticher">
-          <img src={ticher} className="base" alt="teacher" />
-
+          <img src={ticher} className="base" alt="Нигматуллина Лилия Ильдаровна" />
           <div className="info">
             <h1 className="name_ticher">
               Нигматуллина Лилия Ильдаровна

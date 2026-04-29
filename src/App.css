@@ -3,7 +3,6 @@
   background: linear-gradient(135deg, #e8f4f8, #f9f1f6);
   padding: 40px 20px;
   box-sizing: border-box;
-  
 }
 
 #center {
@@ -13,34 +12,40 @@
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   padding: 24px;
-  
-  
 }
 
 .image-ticher {
   display: flex;
-  gap: 4px;
+  gap: 24px; /* расстояние между изображением и текстом */
   align-items: flex-start;
 }
 
 .image-ticher .base {
-  width: 85%;
+  width: 25%; /* изображение занимает 35% ширины */
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0; /* изображение не сжимается */
 }
-  
+
+.image-ticher .info {
+  flex: 1; /* текст занимает оставшееся место */
+}
+
 .name_ticher {
   color: #5a6a7a;
-  margin: 10;
+  margin: 0 0 12px 0; /* убираем margin-top, добавляем снизу */
+  font-size: 30px;
 }
 
 .txt {
   font-size: 25px;
-  margin: 10;
+  margin: 0;
   color: #5a6a7a;
+  line-height: 1.6;
 }
 
+/* Адаптивность */
 @media (max-width: 768px) {
   #center {
     padding: 20px 16px;
@@ -48,7 +53,23 @@
     max-width: none;
   }
   
-  .home p {
+  .image-ticher {
+    flex-direction: column; /* на мобильных устройствах - друг под другом */
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-ticher .base {
+    width: 60%;
+    max-width: 250px;
+  }
+  
+  .name_ticher {
+    font-size: 24px;
+  }
+  
+  .txt {
     font-size: 16px;
   }
 }
